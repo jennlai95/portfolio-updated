@@ -44,7 +44,7 @@ nav ul li a {
     position: relative;
 }
 
-nav ul li a::after{
+.nav ul li a::after{.
     content: '';
     width: 100%;;
     height: 3px;
@@ -55,7 +55,7 @@ nav ul li a::after{
     transition: 0.5s;
 }
 
-nav ul li a:hover::after{
+.nav ul li a:hover::after{
     width: 100%;
 }
 
@@ -66,4 +66,59 @@ nav ul li a:hover::after{
 
 h1 {
     font-size: 16px;
+    color: white;
+}
+
+/* about page css */
+
+about {
+    padding: 80px 0;
+    color: #ababab;
+}
+
+.row {
+    display:  flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+    color: white;
+}
+.subtitle {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+
+/* portfolio */
+
+.portfolio {
+    padding: 50px 50px;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+    color: white;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
 }

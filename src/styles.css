@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #64485c;
+  background-color: #c38d9e;
 }
 
 header {
@@ -53,7 +53,7 @@ nav ul li a::after {
   transition: 0.5s;
 }
 
-.nav ul li a:hover::after {
+nav ul li a:hover::after {
   width: 100%;
 }
 
@@ -65,6 +65,16 @@ nav ul li a::after {
 h1 {
   font-size: 16px;
   color: white;
+}
+
+h2 {
+  font-size: 16px;
+  color: #64485c;
+}
+
+p {
+  font-size: 16px;
+  color: #64485c;
 }
 
 /* about page css */
@@ -118,4 +128,38 @@ about {
   width: 100%;
   border-radius: 10px;
   display: block;
+}
+
+/* contact form styles */
+form .form-elements {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: auto;
+  border: 1px solid grey;
+}
+form .form-elements label {
+  font-size: 1.2rem;
+}
+form .form-elements .form-input {
+  border: 1px solid grey;
+  border-radius: 1px;
+  font-size: 1.2rem;
+}
+form .form-elements .form-message {
+  height: 200px;
+}
+
+footer {
+  margin-top: auto;
+  max-height: 10vh;
+}
+
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */
